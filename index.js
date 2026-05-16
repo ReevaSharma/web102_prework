@@ -26,7 +26,7 @@ function deleteChildElements(parent) {
 const gamesContainer = document.getElementById("games-container");
 
 // create a function that adds all data from the games array to the page
-function addGamesToPage(gamesContainer) {
+function addGamesToPage(games) {
 
     // loop over each item in the data
     for (let i = 0; i < games.length; i++) {
