@@ -53,7 +53,6 @@ function addGamesToPage(games) {
                 alert(`You clicked on ${game.name}`);
             });
 
-        // append the game to the games-container
         gamesContainer.appendChild(gameCard);
     }
 
